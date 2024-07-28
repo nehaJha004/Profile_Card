@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #fcf0ff;
+}
+.top-strip{
+    height: 50px;
+    background-color:#9d40e4;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 87vh;
+}
+.profile-card{
+    width: 335px;
+    height: 404px;
+    padding: 32px 30px 20px;
+    border-radius: 20px;
+    background-color: #9d40e4;
+    position: relative;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    position: relative;
+}
+.icons img{
+    cursor: pointer;
+}
+.profile-content{
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+}
+.social-media{
+    padding: 16px 0px;
+}
+
+.btn{
+    color: white;
+    background-color: rgba(30, 155, 239, 0.959);
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 30px;
+    margin-bottom: 8px;
+    margin-top: 16px;
+    text-decoration: none;
+}
+.heading{
+    margin-top: 14px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.sub-title{
+    margin-top: 6px;
+    color: #a6a6a6;
+}
+.avatar-container {
+    display: inline-block;
+    margin-top: -75px;
+    border: 8px solid white;
+    border-radius: 100%;
+    position: relative;
+}
+
+.social-media + .social-media {
+    margin-left: 8px;
+}
+.bottom-strip{
+    height: 30px;
+    background-color:#9d40e4;
+    bottom: 0px;
+}
+.green-dot{
+    width: 14px;
+  height: 14px;
+  background-color: #87e57b;
+  border-radius: 100%;
+  box-sizing: content-box;
+  border: 4px solid white;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
